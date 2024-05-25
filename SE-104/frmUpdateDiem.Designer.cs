@@ -51,6 +51,7 @@
             this.txtDiemGK.Name = "txtDiemGK";
             this.txtDiemGK.Size = new System.Drawing.Size(47, 22);
             this.txtDiemGK.TabIndex = 1;
+            
             // 
             // btnLuu
             // 
