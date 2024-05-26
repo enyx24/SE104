@@ -248,3 +248,33 @@ C:\Users\LENOVO\Desktop\SE235\SE-104\obj\Debug\ABD.csproj.GenerateResource.cache
 C:\Users\LENOVO\Desktop\SE235\SE-104\obj\Debug\ABD.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Desktop\SE235\SE-104\obj\Debug\ABD.exe
 C:\Users\LENOVO\Desktop\SE235\SE-104\obj\Debug\ABD.pdb
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\bin\Debug\ABD.exe.config
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\bin\Debug\ABD.exe
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\bin\Debug\ABD.pdb
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.csproj.AssemblyReference.cache
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.Form1.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmChamDiem.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmDangkyMonhoc.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmDangnhap.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmDoiMK.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmDSDiemThi.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmDSGV.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmDsLopHoc.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmDSMH.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmDsMhDaDKy.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmDSSV.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmGV.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmKetQuaHocTap.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmLopHoc.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmMain.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmMonHoc.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmQuanLyLop.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmResetMK.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmSinhVien.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmUpdateDiem.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmWelcome.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.Properties.Resources.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.csproj.GenerateResource.cache
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.csproj.CoreCompileInputs.cache
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.exe
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.pdb

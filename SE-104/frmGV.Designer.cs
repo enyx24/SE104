@@ -49,6 +49,10 @@
             this.txtDiachi = new System.Windows.Forms.TextBox();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtHocvi = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtKhoa = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -138,7 +142,7 @@
             // 
             // mtbNgaysinh
             // 
-            this.mtbNgaysinh.Location = new System.Drawing.Point(158, 175);
+            this.mtbNgaysinh.Location = new System.Drawing.Point(158, 164);
             this.mtbNgaysinh.Mask = "00/00/0000";
             this.mtbNgaysinh.Name = "mtbNgaysinh";
             this.mtbNgaysinh.Size = new System.Drawing.Size(100, 22);
@@ -148,7 +152,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(73, 178);
+            this.label5.Location = new System.Drawing.Point(73, 167);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(67, 16);
             this.label5.TabIndex = 0;
@@ -157,7 +161,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(73, 203);
+            this.label6.Location = new System.Drawing.Point(73, 252);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(66, 16);
             this.label6.TabIndex = 0;
@@ -165,7 +169,7 @@
             // 
             // txtDienthoai
             // 
-            this.txtDienthoai.Location = new System.Drawing.Point(158, 203);
+            this.txtDienthoai.Location = new System.Drawing.Point(158, 252);
             this.txtDienthoai.Name = "txtDienthoai";
             this.txtDienthoai.Size = new System.Drawing.Size(211, 22);
             this.txtDienthoai.TabIndex = 1;
@@ -173,7 +177,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(73, 231);
+            this.label7.Location = new System.Drawing.Point(73, 280);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(41, 16);
             this.label7.TabIndex = 0;
@@ -181,7 +185,7 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(158, 231);
+            this.txtEmail.Location = new System.Drawing.Point(158, 280);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(211, 22);
             this.txtEmail.TabIndex = 1;
@@ -189,7 +193,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(73, 259);
+            this.label8.Location = new System.Drawing.Point(73, 308);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(47, 16);
             this.label8.TabIndex = 0;
@@ -197,7 +201,7 @@
             // 
             // txtDiachi
             // 
-            this.txtDiachi.Location = new System.Drawing.Point(158, 259);
+            this.txtDiachi.Location = new System.Drawing.Point(158, 308);
             this.txtDiachi.Name = "txtDiachi";
             this.txtDiachi.Size = new System.Drawing.Size(211, 22);
             this.txtDiachi.TabIndex = 1;
@@ -222,6 +226,38 @@
             this.btnHuy.UseVisualStyleBackColor = true;
             this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(73, 224);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(45, 16);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Học vị";
+            // 
+            // txtHocvi
+            // 
+            this.txtHocvi.Location = new System.Drawing.Point(158, 224);
+            this.txtHocvi.Name = "txtHocvi";
+            this.txtHocvi.Size = new System.Drawing.Size(211, 22);
+            this.txtHocvi.TabIndex = 1;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(73, 196);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(38, 16);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Khoa";
+            // 
+            // txtKhoa
+            // 
+            this.txtKhoa.Location = new System.Drawing.Point(158, 196);
+            this.txtKhoa.Name = "txtKhoa";
+            this.txtKhoa.Size = new System.Drawing.Size(211, 22);
+            this.txtKhoa.TabIndex = 1;
+            // 
             // frmGV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -233,9 +269,13 @@
             this.Controls.Add(this.rbtNu);
             this.Controls.Add(this.rbtNam);
             this.Controls.Add(this.txtDiachi);
+            this.Controls.Add(this.txtKhoa);
+            this.Controls.Add(this.txtHocvi);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtDienthoai);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label8);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.txtTen);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
@@ -277,5 +317,9 @@
         private System.Windows.Forms.TextBox txtDiachi;
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.Button btnHuy;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtHocvi;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtKhoa;
     }
 }
