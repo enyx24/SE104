@@ -41,8 +41,9 @@ namespace ABD
             dgvDSLop.Columns["mamonhoc"].HeaderText = "Mã môn";
             dgvDSLop.Columns["tenmonhoc"].HeaderText = "Tên môn học";
             dgvDSLop.Columns["sotinchi"].HeaderText = "Số tín chỉ";
-            
-            
+            dgvDSLop.Columns["thu"].HeaderText = "Thứ";
+            dgvDSLop.Columns["tietbatdau"].HeaderText = "Tiết bắt đầu";
+            dgvDSLop.Columns["tietketthuc"].HeaderText = "Tiết kết thúc";
         }
 
         private void btnTraCuu_Click(object sender, EventArgs e)

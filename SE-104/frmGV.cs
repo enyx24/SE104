@@ -36,6 +36,8 @@ namespace ABD
                 txtTen.Text = r["ten"].ToString();
                 rbtNam.Checked = r["Gioitinh"].ToString() == "1" ? true : false;
                 mtbNgaysinh.Text = r["ngsinh"].ToString();
+                txtKhoa.Text = r["khoa"].ToString();
+                txtHocvi.Text = r["hocvi"].ToString();
                 txtDienthoai.Text = r["dienthoai"].ToString();
                 txtEmail.Text = r["email"].ToString();
                 txtDiachi.Text = r["diachi"].ToString();
@@ -106,6 +108,16 @@ namespace ABD
             {
                 key = "@gioitinh",
                 value = rbtNam.Checked ? "1" : "0"
+            });
+            firstPara.Add(new CustomParameter()
+            {
+                key = "@khoa",
+                value = txtKhoa.Text
+            });
+            firstPara.Add(new CustomParameter()
+            {
+                key = "@hocvi",
+                value = txtHocvi.Text
             });
             firstPara.Add(new CustomParameter()
             {

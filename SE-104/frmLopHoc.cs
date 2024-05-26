@@ -39,6 +39,7 @@ namespace ABD
             cbbGiaoVien.DisplayMember = "hoten";
             cbbGiaoVien.ValueMember = "magiaovien";
             cbbGiaoVien.SelectedIndex = -1;
+
             if (string.IsNullOrEmpty(malophoc))
             {
                 this.Text = "Thêm mới lớp học";
@@ -50,7 +51,11 @@ namespace ABD
                 cbbGiaoVien.SelectedValue = r["magiaovien"].ToString();
                 cbbMonhoc.SelectedValue = r["mamonhoc"].ToString();
                 rbtDangHoatDong.Checked = r["daketthuc"].ToString() == "0" ? true : false;
+                txtThu.Text = r["thu"].ToString();
+                txtTietbatdau.Text = r["tietbatdau"].ToString();
+                txtTietketthuc.Text = r["tietketthuc"].ToString();
             }
+            
         }
 
         private void btnHuy_Click(object sender, EventArgs e)
@@ -95,6 +100,21 @@ namespace ABD
                 });
                 lst.Add(new CustomParameter()
                 {
+                    key = "@thu",
+                    value = txtThu.Text
+                });
+                lst.Add(new CustomParameter()
+                {
+                    key = "@tietbatdau",
+                    value = txtTietbatdau.Text
+                });
+                lst.Add(new CustomParameter()
+                {
+                    key = "@tietketthuc",
+                    value = txtTietketthuc.Text
+                });
+                lst.Add(new CustomParameter()
+                {
                     key = "@daketthuc",
                     value = rbtDaKetThuc.Checked ? "1" : "0"
                 });
@@ -109,7 +129,22 @@ namespace ABD
                 key = "@magiaovien",
                 value = cbbGiaoVien.SelectedValue.ToString()
             });
-            
+            lst.Add(new CustomParameter()
+            {
+                key = "@thu",
+                value = txtThu.Text
+            });
+            lst.Add(new CustomParameter()
+            {
+                key = "@tietbatdau",
+                value = txtTietbatdau.Text
+            });
+            lst.Add(new CustomParameter()
+            {
+                key = "@tietketthuc",
+                value = txtTietketthuc.Text
+            });
+
             var kq = db.ExeCute(sql,lst);
             if(kq==1)
             {
