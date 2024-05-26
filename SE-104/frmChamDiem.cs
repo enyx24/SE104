@@ -53,5 +53,33 @@ namespace ABD
                 LoadDSD();
             }
         }
+
+        private void btnexcel_Click(object sender, EventArgs e)
+        {
+            if (dgvChamDiem.Rows.Count > 0) 
+            {
+                Microsoft.Office.Interop.Excel.Application xceApp = new Microsoft.Office.Interop.Excel.Application();
+                xceApp.Application.Workbooks.Add(Type.Missing);
+                for(int i=1;i<dgvChamDiem.Columns.Count+1;i++) 
+                {
+                    xceApp.Cells[1, i] = dgvChamDiem.Columns[i - 1].HeaderText;
+                }
+                for(int i=0;i<dgvChamDiem.Rows.Count; i++)
+                {
+                    for(int j=0;j<dgvChamDiem.Columns.Count;j++)
+                    {
+                        xceApp.Cells[i + 2, j + 1] = dgvChamDiem.Rows[i].Cells[j].Value.ToString();
+                    }
+                }
+                xceApp.Columns.AutoFit();
+                xceApp.Visible = true;
+
+            }
+        }
+
+        private void dgvChamDiem_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

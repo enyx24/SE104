@@ -38,12 +38,23 @@ namespace ABD
                     value = masv
                 }
             };
+            lst.Add(new CustomParameter()
+            {
+                key = "@tukhoa",
+                value = tukhoa
+            });
             dgvDSMHDDKy.DataSource = new Database().SelectData("monDaDKy", lst);
         }
 
         private void btnDangKyMoi_Click(object sender, EventArgs e)
         {
             new frmDangkyMonhoc(masv).ShowDialog();
+            LoadMonDky();
+        }
+        string tukhoa = "";
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            tukhoa = txtTimKiem.Text;
             LoadMonDky();
         }
     }
