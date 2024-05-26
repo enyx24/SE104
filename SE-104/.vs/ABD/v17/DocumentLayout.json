@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\SE235\\SE-104\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmdsgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdsgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
       "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|c:\\users\\lenovo\\desktop\\se235\\se-104\\frmupdatediem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmupdatediem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -89,12 +93,21 @@
     {
       "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|C:\\Users\\LENOVO\\Desktop\\SE235\\SE-104\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> e7e39aaed7626e78010555f7a5caf21a349fc752
     },
     {
       "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|C:\\Users\\LENOVO\\Desktop\\SE235\\SE-104\\frmdsgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdsgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
       "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|C:\\Users\\LENOVO\\Desktop\\SE235\\SE-104\\frmdslophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdslophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -109,6 +122,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|C:\\Users\\LENOVO\\Desktop\\SE235\\SE-104\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> e7e39aaed7626e78010555f7a5caf21a349fc752
     }
   ],
   "DocumentGroupContainers": [
@@ -118,6 +132,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmDSGV.cs",
+              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSGV.cs",
+              "RelativeDocumentMoniker": "frmDSGV.cs",
+              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSGV.cs",
+              "RelativeToolTip": "frmDSGV.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAADgvzEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T07:45:09.052Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+=======
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -145,10 +188,46 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T18:15:26.647Z",
               "EditorCaption": ""
+>>>>>>> e7e39aaed7626e78010555f7a5caf21a349fc752
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
+              "Title": "frmDSGV.cs [Design]",
+              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSGV.cs",
+              "RelativeDocumentMoniker": "frmDSGV.cs",
+              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSGV.cs [Design]",
+              "RelativeToolTip": "frmDSGV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T07:56:19.156Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmQuanLyLop.cs",
+              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmQuanLyLop.cs",
+              "RelativeDocumentMoniker": "frmQuanLyLop.cs",
+              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmQuanLyLop.cs",
+              "RelativeToolTip": "frmQuanLyLop.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T07:47:17.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmQuanLyLop.cs [Design]",
+              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmQuanLyLop.cs",
+              "RelativeDocumentMoniker": "frmQuanLyLop.cs",
+              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmQuanLyLop.cs [Design]",
+              "RelativeToolTip": "frmQuanLyLop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T07:47:08.257Z",
+              "EditorCaption": " [Design]"
+=======
               "Title": "frmGV.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\SE235\\SE-104\\frmGV.cs",
               "RelativeDocumentMoniker": "frmGV.cs",
@@ -423,6 +502,7 @@
               "ViewState": "AQIAAD4AAAAAAAAAAAAuwFMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T13:39:53.633Z"
+>>>>>>> e7e39aaed7626e78010555f7a5caf21a349fc752
             }
           ]
         }
