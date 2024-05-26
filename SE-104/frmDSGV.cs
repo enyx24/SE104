@@ -71,6 +71,27 @@ namespace ABD
             {
                 if (e.ColumnIndex == dgvDSGV.Columns["btnDelete"].Index)
                 {
+                    string mgv = dgvDSGV.Rows[e.RowIndex].Cells["magiaovien"].Value.ToString().ToLower();
+                    string tukhoa = "";
+           
+                    List<CustomParameter> firstPara = new List<CustomParameter>();
+                    firstPara.Add(new CustomParameter()
+                    {
+                        key = "@magiaovien",
+                        value = mgv
+                    });
+                    firstPara.Add(new CustomParameter()
+                    {
+                        key = "@tukhoa",
+                        value = tukhoa
+                    });
+                    dgvTemp.DataSource = new Database().SelectData("tracuulop", firstPara);
+                    if (dgvTemp.Rows.Count > 1)
+                    {
+                        MessageBox.Show("Giáo viên " + dgvDSGV.Rows[e.RowIndex].Cells["hoten"].Value.ToString() + " vẫn còn lớp đang hoạt động.", "Không thể xoá");
+                        return;
+                    }
+
                     if (MessageBox.Show("Bạn chắc chắn muốn xóa giáo viên: " + dgvDSGV.Rows[e.RowIndex].Cells["hoten"].Value.ToString() + " ?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
 
@@ -96,6 +117,11 @@ namespace ABD
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvDSGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

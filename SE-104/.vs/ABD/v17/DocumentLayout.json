@@ -3,88 +3,20 @@
   "WorkspaceRootPath": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmdssv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdssv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmdssv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdssv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmresetmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmresetmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmketquahoctap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmketquahoctap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmlophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmlophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmupdatediem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmupdatediem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmdsdiemthi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdsdiemthi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmdoimk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdoimk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmdangkymonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdangkymonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmchamdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmchamdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmdsgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdsgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmdsgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdsgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmdslophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdslophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmdsmhdadky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdsmhdadky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmdsmh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmdsmh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|d:\\data\\slidenfile\\itse\\se20.6\\se-104\\frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{868494BE-3A85-42DA-9DB2-6E9F376D4CD6}|ABD.csproj|solutionrelative:frmquanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,262 +26,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmDSSV.cs",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSSV.cs",
-              "RelativeDocumentMoniker": "frmDSSV.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSSV.cs",
-              "RelativeToolTip": "frmDSSV.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "frmDSGV.cs",
+              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSGV.cs",
+              "RelativeDocumentMoniker": "frmDSGV.cs",
+              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSGV.cs",
+              "RelativeToolTip": "frmDSGV.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAIAwwFcAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T15:09:15.707Z",
+              "WhenOpened": "2024-05-26T07:45:09.052Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmLopHoc.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmLopHoc.cs",
-              "RelativeDocumentMoniker": "frmLopHoc.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmLopHoc.cs [Design]",
-              "RelativeToolTip": "frmLopHoc.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T15:07:38.473Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmMonHoc.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmMonHoc.cs",
-              "RelativeDocumentMoniker": "frmMonHoc.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmMonHoc.cs [Design]",
-              "RelativeToolTip": "frmMonHoc.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T15:07:37.088Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmQuanLyLop.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmQuanLyLop.cs",
-              "RelativeDocumentMoniker": "frmQuanLyLop.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmQuanLyLop.cs [Design]",
-              "RelativeToolTip": "frmQuanLyLop.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T15:07:35.47Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmResetMK.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmResetMK.cs",
-              "RelativeDocumentMoniker": "frmResetMK.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmResetMK.cs [Design]",
-              "RelativeToolTip": "frmResetMK.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T15:07:34.001Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmKetQuaHocTap.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmKetQuaHocTap.cs",
-              "RelativeDocumentMoniker": "frmKetQuaHocTap.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmKetQuaHocTap.cs [Design]",
-              "RelativeToolTip": "frmKetQuaHocTap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T14:48:17.392Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmDSSV.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSSV.cs",
-              "RelativeDocumentMoniker": "frmDSSV.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSSV.cs [Design]",
-              "RelativeToolTip": "frmDSSV.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T14:48:07.079Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmSinhVien.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmSinhVien.cs",
-              "RelativeDocumentMoniker": "frmSinhVien.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmSinhVien.cs [Design]",
-              "RelativeToolTip": "frmSinhVien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T15:07:32.791Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmUpdateDiem.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmUpdateDiem.cs",
-              "RelativeDocumentMoniker": "frmUpdateDiem.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmUpdateDiem.cs [Design]",
-              "RelativeToolTip": "frmUpdateDiem.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T15:07:30.906Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T15:07:06.945Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "frmChamDiem.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmChamDiem.cs",
-              "RelativeDocumentMoniker": "frmChamDiem.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmChamDiem.cs [Design]",
-              "RelativeToolTip": "frmChamDiem.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T14:44:24.235Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmDangkyMonhoc.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDangkyMonhoc.cs",
-              "RelativeDocumentMoniker": "frmDangkyMonhoc.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDangkyMonhoc.cs [Design]",
-              "RelativeToolTip": "frmDangkyMonhoc.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T14:44:27.383Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmDangnhap.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDangnhap.cs",
-              "RelativeDocumentMoniker": "frmDangnhap.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDangnhap.cs [Design]",
-              "RelativeToolTip": "frmDangnhap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T14:02:59.52Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmDoiMK.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDoiMK.cs",
-              "RelativeDocumentMoniker": "frmDoiMK.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDoiMK.cs [Design]",
-              "RelativeToolTip": "frmDoiMK.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T14:44:31.825Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmDSDiemThi.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSDiemThi.cs",
-              "RelativeDocumentMoniker": "frmDSDiemThi.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSDiemThi.cs [Design]",
-              "RelativeToolTip": "frmDSDiemThi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T14:44:37.551Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "frmDSGV.cs [Design]",
               "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSGV.cs",
               "RelativeDocumentMoniker": "frmDSGV.cs",
               "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSGV.cs [Design]",
               "RelativeToolTip": "frmDSGV.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T14:44:41.39Z",
+              "WhenOpened": "2024-05-26T07:56:19.156Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "frmDsLopHoc.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDsLopHoc.cs",
-              "RelativeDocumentMoniker": "frmDsLopHoc.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDsLopHoc.cs [Design]",
-              "RelativeToolTip": "frmDsLopHoc.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "frmQuanLyLop.cs",
+              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmQuanLyLop.cs",
+              "RelativeDocumentMoniker": "frmQuanLyLop.cs",
+              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmQuanLyLop.cs",
+              "RelativeToolTip": "frmQuanLyLop.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T14:46:52.675Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "frmDsMhDaDKy.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDsMhDaDKy.cs",
-              "RelativeDocumentMoniker": "frmDsMhDaDKy.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDsMhDaDKy.cs [Design]",
-              "RelativeToolTip": "frmDsMhDaDKy.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T14:45:00.231Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "frmDSMH.cs [Design]",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSMH.cs",
-              "RelativeDocumentMoniker": "frmDSMH.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmDSMH.cs [Design]",
-              "RelativeToolTip": "frmDSMH.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T14:47:00.526Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Database.cs",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\Database.cs",
-              "RelativeDocumentMoniker": "Database.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\Database.cs",
-              "RelativeToolTip": "Database.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAByAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:45:27.008Z",
+              "WhenOpened": "2024-05-26T07:47:17.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmMain.cs",
-              "RelativeDocumentMoniker": "frmMain.cs",
-              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmMain.cs",
-              "RelativeToolTip": "frmMain.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAuwFMAAAAeAAAA",
+              "DocumentIndex": 3,
+              "Title": "frmQuanLyLop.cs [Design]",
+              "DocumentMoniker": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmQuanLyLop.cs",
+              "RelativeDocumentMoniker": "frmQuanLyLop.cs",
+              "ToolTip": "D:\\DATA\\slidenfile\\itse\\SE20.6\\SE-104\\frmQuanLyLop.cs [Design]",
+              "RelativeToolTip": "frmQuanLyLop.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:39:53.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T07:47:08.257Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

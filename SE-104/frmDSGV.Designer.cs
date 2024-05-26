@@ -42,8 +42,10 @@
             this.diachi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnDelete = new System.Windows.Forms.DataGridViewButtonColumn();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dgvTemp = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTemp)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -62,7 +64,7 @@
             // 
             this.txtTimKiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTimKiem.Location = new System.Drawing.Point(443, 20);
-            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(2);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(153, 20);
             this.txtTimKiem.TabIndex = 1;
@@ -71,7 +73,7 @@
             // 
             this.btnTimKiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnTimKiem.Location = new System.Drawing.Point(600, 19);
-            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(2);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(70, 19);
             this.btnTimKiem.TabIndex = 2;
@@ -83,7 +85,7 @@
             // 
             this.btnThemMoi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnThemMoi.Location = new System.Drawing.Point(674, 19);
-            this.btnThemMoi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThemMoi.Margin = new System.Windows.Forms.Padding(2);
             this.btnThemMoi.Name = "btnThemMoi";
             this.btnThemMoi.Size = new System.Drawing.Size(64, 19);
             this.btnThemMoi.TabIndex = 2;
@@ -110,7 +112,7 @@
             this.diachi,
             this.btnDelete});
             this.dgvDSGV.Location = new System.Drawing.Point(0, 61);
-            this.dgvDSGV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvDSGV.Margin = new System.Windows.Forms.Padding(2);
             this.dgvDSGV.MultiSelect = false;
             this.dgvDSGV.Name = "dgvDSGV";
             this.dgvDSGV.ReadOnly = true;
@@ -120,6 +122,7 @@
             this.dgvDSGV.Size = new System.Drawing.Size(748, 305);
             this.dgvDSGV.TabIndex = 3;
             this.dgvDSGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSGV_CellClick);
+            this.dgvDSGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSGV_CellContentClick);
             this.dgvDSGV.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSGV_CellDoubleClick);
             // 
             // magiaovien
@@ -197,24 +200,35 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
+            // dgvTemp
+            // 
+            this.dgvTemp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTemp.Location = new System.Drawing.Point(228, 142);
+            this.dgvTemp.Name = "dgvTemp";
+            this.dgvTemp.Size = new System.Drawing.Size(240, 150);
+            this.dgvTemp.TabIndex = 5;
+            this.dgvTemp.Visible = false;
+            // 
             // frmDSGV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(748, 366);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.dgvDSGV);
             this.Controls.Add(this.btnThemMoi);
             this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Controls.Add(this.dgvTemp);
+            this.Controls.Add(this.dgvDSGV);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmDSGV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Danh sách giáo viên";
             this.Load += new System.EventHandler(this.frmDSGV_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSGV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTemp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -236,5 +250,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn diachi;
         private System.Windows.Forms.DataGridViewButtonColumn btnDelete;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridView dgvTemp;
     }
 }
