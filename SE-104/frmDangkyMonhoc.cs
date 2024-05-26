@@ -42,7 +42,7 @@ namespace ABD
 
         private void dgvDSLH_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dgvDSLH.Rows[e.RowIndex].Index > 0)
+            if (dgvDSLH.Rows[e.RowIndex].Index >= 0)
             {
                if(DialogResult.Yes==
                 MessageBox.Show("Bạn muốn đăng kí học phần [" + dgvDSLH.Rows[e.RowIndex].Cells["tenmonhoc"].Value.ToString()+"]","Xác nhận đăng ký",MessageBoxButtons.YesNo,MessageBoxIcon.Question)

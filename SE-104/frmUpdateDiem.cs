@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ABD
 {
@@ -23,7 +24,8 @@ namespace ABD
         private string mlh;
         private void frmUpdateDiem_Load(object sender, EventArgs e)
         {
-            var r = new Database().Select("selectDiemSV '" + msv + "'");
+            var r = new Database().Select("selectDiemSV '" + msv + "', '" + mlh + "'");
+
             //MessageBox.Show(r[0].ToString());
             //set các giá trị vào component của form
             txtDiemGK.Text = r["diemthilan1"].ToString();
@@ -36,8 +38,24 @@ namespace ABD
             string sql = "UpdateDiemSV";
             string diemgk = txtDiemGK.Text;
             string diemck = txtDiemCK.Text;
+            try
+            {
+                int number = int.Parse(txtDiemGK.Text);
+                int number1 = int.Parse(txtDiemCK.Text);
+                if (number < 0 || number > 10 || number1 < 0 || number1 > 10) 
+                {
+                    throw new ArgumentOutOfRangeException("Giá trị phải nằm trong khoảng từ 0 đến 10.");
+                }
 
-            //khai báo một danh sách tham số = class CustomParameter
+                MessageBox.Show("Giá trị hợp lệ!");
+            }
+            catch
+            {
+                MessageBox.Show("Giá trị phải nằm trong khoảng từ 0 đến 10.");
+                txtDiemGK.Select();
+                txtDiemGK.Select();
+                return;
+            }
             List<CustomParameter> firstPara = new List<CustomParameter>();
             firstPara.Add(new CustomParameter()
             {
@@ -52,13 +70,13 @@ namespace ABD
             firstPara.Add(new CustomParameter()
             {
                 key = "@diemthilan1",
-                value = diemgk
-            });
+                value = txtDiemGK.Text
+        });
             firstPara.Add(new CustomParameter()
             {
                 key = "@diemthilan2",
-                value = diemck
-            });
+                value = txtDiemCK.Text
+        });
 
             var rs = new Database().ExeCute(sql, firstPara); // truyền câu lệnh sql và danh sách các tham số
             if (rs == 1) //nếu thực thi thành công
@@ -78,5 +96,8 @@ namespace ABD
         {
             this.Dispose();
         }
+
+        
+        
     }
 }
