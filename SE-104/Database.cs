@@ -11,7 +11,7 @@ namespace ABD
 {
     internal class Database
     {
-        private string connetionString = "Data Source=LAPTOP-15AB1195;Initial Catalog=QLSV;Integrated Security=True";
+        private string connetionString = "Data Source=LAPTOP-B6MR34LM;Initial Catalog=QLSV;Integrated Security=True";
         private SqlConnection conn;
         private DataTable dt = new DataTable();
         private SqlCommand cmd;

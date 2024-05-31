@@ -64,6 +64,7 @@ namespace ABD
             {
                 quanLyLopToolStripMenuItem.Visible = false;
                 chucNangToolStripMenuItem.Visible = false;
+                lyLichSinhVienToolStripMenuItem.Visible = false;
             }  else
             {
                 quanLiToolStripMenuItem.Visible = false;
@@ -71,11 +72,13 @@ namespace ABD
                 if (loaitk.Equals("gv"))
                 {
                     chucNangToolStripMenuItem.Visible = false;
-                    
+                    dieuKienToolStripMenuItem.Visible = false;
+                    lyLichSinhVienToolStripMenuItem.Visible = false;
                 }
                 else
                 {
                     quanLyLopToolStripMenuItem.Visible = false;
+                    dieuKienToolStripMenuItem.Visible = false;
                 }
             }
 
@@ -143,5 +146,16 @@ namespace ABD
             Application.Restart();
         }
 
+        private void dieuKienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDsDieuKien f = new frmDsDieuKien();
+            AddForm(f);
+        }
+
+        private void lyLichSinhVienToolStripMenuItem_Click(object sender, EventArgs e)
+        {        
+            var f = new frmLyLichSV(taikhoan);
+            AddForm(f);
+        }
     }
 }

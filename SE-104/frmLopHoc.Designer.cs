@@ -42,6 +42,8 @@
             this.txtTietbatdau = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtTietketthuc = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtSoslot = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -63,7 +65,7 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(181, 283);
+            this.btnLuu.Location = new System.Drawing.Point(181, 317);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(75, 23);
             this.btnLuu.TabIndex = 2;
@@ -73,7 +75,7 @@
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(319, 283);
+            this.btnHuy.Location = new System.Drawing.Point(319, 317);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(75, 23);
             this.btnHuy.TabIndex = 3;
@@ -102,7 +104,7 @@
             // 
             this.rbtDangHoatDong.AutoSize = true;
             this.rbtDangHoatDong.Checked = true;
-            this.rbtDangHoatDong.Location = new System.Drawing.Point(153, 253);
+            this.rbtDangHoatDong.Location = new System.Drawing.Point(153, 287);
             this.rbtDangHoatDong.Name = "rbtDangHoatDong";
             this.rbtDangHoatDong.Size = new System.Drawing.Size(123, 20);
             this.rbtDangHoatDong.TabIndex = 6;
@@ -113,7 +115,7 @@
             // rbtDaKetThuc
             // 
             this.rbtDaKetThuc.AutoSize = true;
-            this.rbtDaKetThuc.Location = new System.Drawing.Point(301, 253);
+            this.rbtDaKetThuc.Location = new System.Drawing.Point(301, 287);
             this.rbtDaKetThuc.Name = "rbtDaKetThuc";
             this.rbtDaKetThuc.Size = new System.Drawing.Size(93, 20);
             this.rbtDaKetThuc.TabIndex = 7;
@@ -169,11 +171,29 @@
             this.txtTietketthuc.Size = new System.Drawing.Size(211, 22);
             this.txtTietketthuc.TabIndex = 9;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(60, 236);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 16);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Số Slot";
+            // 
+            // txtSoslot
+            // 
+            this.txtSoslot.Location = new System.Drawing.Point(143, 236);
+            this.txtSoslot.Name = "txtSoslot";
+            this.txtSoslot.Size = new System.Drawing.Size(211, 22);
+            this.txtSoslot.TabIndex = 9;
+            // 
             // frmLopHoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 387);
+            this.ClientSize = new System.Drawing.Size(635, 432);
+            this.Controls.Add(this.txtSoslot);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.txtTietketthuc);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtTietbatdau);
@@ -213,5 +233,7 @@
         private System.Windows.Forms.TextBox txtTietbatdau;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtTietketthuc;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtSoslot;
     }
 }
