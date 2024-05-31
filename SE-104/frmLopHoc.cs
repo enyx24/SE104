@@ -54,6 +54,7 @@ namespace ABD
                 txtThu.Text = r["thu"].ToString();
                 txtTietbatdau.Text = r["tietbatdau"].ToString();
                 txtTietketthuc.Text = r["tietketthuc"].ToString();
+                txtSoslot.Text = r["soslot"].ToString();
             }
             
         }
@@ -100,21 +101,6 @@ namespace ABD
                 });
                 lst.Add(new CustomParameter()
                 {
-                    key = "@thu",
-                    value = txtThu.Text
-                });
-                lst.Add(new CustomParameter()
-                {
-                    key = "@tietbatdau",
-                    value = txtTietbatdau.Text
-                });
-                lst.Add(new CustomParameter()
-                {
-                    key = "@tietketthuc",
-                    value = txtTietketthuc.Text
-                });
-                lst.Add(new CustomParameter()
-                {
                     key = "@daketthuc",
                     value = rbtDaKetThuc.Checked ? "1" : "0"
                 });
@@ -129,6 +115,7 @@ namespace ABD
                 key = "@magiaovien",
                 value = cbbGiaoVien.SelectedValue.ToString()
             });
+            
             lst.Add(new CustomParameter()
             {
                 key = "@thu",
@@ -144,7 +131,11 @@ namespace ABD
                 key = "@tietketthuc",
                 value = txtTietketthuc.Text
             });
-
+            lst.Add(new CustomParameter()
+            {
+                key = "@soslot",
+                value = txtSoslot.Text
+            }); 
             var kq = db.ExeCute(sql,lst);
             if(kq==1)
             {

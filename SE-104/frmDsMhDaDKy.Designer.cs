@@ -41,6 +41,7 @@
             this.tietketthuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.thu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gvien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.daketthuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSMHDDKy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -61,7 +62,8 @@
             this.tietbatdau,
             this.tietketthuc,
             this.thu,
-            this.gvien});
+            this.gvien,
+            this.daketthuc});
             this.dgvDSMHDDKy.Location = new System.Drawing.Point(1, 121);
             this.dgvDSMHDDKy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvDSMHDDKy.MultiSelect = false;
@@ -121,7 +123,7 @@
             // 
             this.pictureBox1.Image = global::ABD.Properties.Resources.banner_uit;
             this.pictureBox1.Location = new System.Drawing.Point(1, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(240, 70);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -184,6 +186,14 @@
             this.gvien.Name = "gvien";
             this.gvien.ReadOnly = true;
             // 
+            // daketthuc
+            // 
+            this.daketthuc.DataPropertyName = "tinhtrang";
+            this.daketthuc.HeaderText = "Tình trạng";
+            this.daketthuc.MinimumWidth = 6;
+            this.daketthuc.Name = "daketthuc";
+            this.daketthuc.ReadOnly = true;
+            // 
             // frmDsMhDaDKy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -221,5 +231,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tietketthuc;
         private System.Windows.Forms.DataGridViewTextBoxColumn thu;
         private System.Windows.Forms.DataGridViewTextBoxColumn gvien;
+        private System.Windows.Forms.DataGridViewTextBoxColumn daketthuc;
     }
 }

@@ -308,3 +308,6 @@ C:\Users\LENOVO\Desktop\26.5\SE-104-New\obj\Debug\ABD.csproj.GenerateResource.ca
 C:\Users\LENOVO\Desktop\26.5\SE-104-New\obj\Debug\ABD.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Desktop\26.5\SE-104-New\obj\Debug\ABD.exe
 C:\Users\LENOVO\Desktop\26.5\SE-104-New\obj\Debug\ABD.pdb
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmDieuKien.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmDsDieuKien.resources
+C:\Users\HP VICTUS\Downloads\đồ án\SE-104\obj\Debug\ABD.frmLyLichSV.resources

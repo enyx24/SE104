@@ -77,7 +77,6 @@ namespace ABD
                     if (MessageBox.Show("Bạn chắc chắn muốn xóa môn học " + dgvDSMH.Rows[e.RowIndex].Cells["tenmonhoc"].Value.ToString() + " ?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
 
-
                         var maMH = dgvDSMH.Rows[e.RowIndex].Cells["mamonhoc"].Value.ToString().ToLower();
                         var sql = "deleteMH";
                         var lstPara = new List<CustomParameter>()
@@ -89,7 +88,6 @@ namespace ABD
                         }
                     };
                         new Database().ExeCute(sql, lstPara);
-
                         MessageBox.Show("Xóa môn học thành công");
                         LoadDSMH();
                     }
