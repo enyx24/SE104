@@ -77,12 +77,19 @@ namespace ABD
                             value = malh
                         }
                     };
-                        new Database().ExeCute(sql, lstPara);
+                        var f = new Database().ExeCute(sql, lstPara);
+                        if (f == 1)
+                        {
+                            MessageBox.Show("Xóa lớp học thành công");
+                            LoadDSLH();
 
-                        MessageBox.Show("Xóa lớp học thành công");
-                        LoadDSLH();
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("Không thể xóa lớp còn hoạt động");
+                        }
                     }
-
                 }
             }
         }
