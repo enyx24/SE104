@@ -32,6 +32,10 @@
             this.btnTraCuu = new System.Windows.Forms.Button();
             this.txtTuKhoa = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.malophoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mamonhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenmonhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sotinchi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSLop)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,6 +48,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvDSLop.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDSLop.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDSLop.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.malophoc,
+            this.mamonhoc,
+            this.tenmonhoc,
+            this.sotinchi});
             this.dgvDSLop.Location = new System.Drawing.Point(0, 41);
             this.dgvDSLop.MultiSelect = false;
             this.dgvDSLop.Name = "dgvDSLop";
@@ -87,6 +96,38 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Tìm kiếm";
             // 
+            // malophoc
+            // 
+            this.malophoc.DataPropertyName = "malophoc";
+            this.malophoc.HeaderText = "Mã lớp học";
+            this.malophoc.MinimumWidth = 6;
+            this.malophoc.Name = "malophoc";
+            this.malophoc.ReadOnly = true;
+            // 
+            // mamonhoc
+            // 
+            this.mamonhoc.DataPropertyName = "mamonhoc";
+            this.mamonhoc.HeaderText = "Mã môn học";
+            this.mamonhoc.MinimumWidth = 6;
+            this.mamonhoc.Name = "mamonhoc";
+            this.mamonhoc.ReadOnly = true;
+            // 
+            // tenmonhoc
+            // 
+            this.tenmonhoc.DataPropertyName = "tenmonhoc";
+            this.tenmonhoc.HeaderText = "Tên môn học";
+            this.tenmonhoc.MinimumWidth = 6;
+            this.tenmonhoc.Name = "tenmonhoc";
+            this.tenmonhoc.ReadOnly = true;
+            // 
+            // sotinchi
+            // 
+            this.sotinchi.DataPropertyName = "sotinchi";
+            this.sotinchi.HeaderText = "Số TC";
+            this.sotinchi.MinimumWidth = 6;
+            this.sotinchi.Name = "sotinchi";
+            this.sotinchi.ReadOnly = true;
+            // 
             // frmQuanLyLop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -111,5 +152,9 @@
         private System.Windows.Forms.Button btnTraCuu;
         private System.Windows.Forms.TextBox txtTuKhoa;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn malophoc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mamonhoc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenmonhoc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sotinchi;
     }
 }

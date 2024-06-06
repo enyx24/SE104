@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -72,6 +76,12 @@
     <Compile Include="frmDangnhap.Designer.cs">
       <DependentUpon>frmDangnhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDieuKien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDieuKien.Designer.cs">
+      <DependentUpon>frmDieuKien.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDoiMK.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +93,12 @@
     </Compile>
     <Compile Include="frmDSDiemThi.Designer.cs">
       <DependentUpon>frmDSDiemThi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDsDieuKien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDsDieuKien.Designer.cs">
+      <DependentUpon>frmDsDieuKien.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDSGV.cs">
       <SubType>Form</SubType>
@@ -131,6 +147,12 @@
     </Compile>
     <Compile Include="frmLopHoc.Designer.cs">
       <DependentUpon>frmLopHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLyLichSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLyLichSV.Designer.cs">
+      <DependentUpon>frmLyLichSV.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -188,11 +210,17 @@
     <EmbeddedResource Include="frmDangnhap.resx">
       <DependentUpon>frmDangnhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDieuKien.resx">
+      <DependentUpon>frmDieuKien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDoiMK.resx">
       <DependentUpon>frmDoiMK.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDSDiemThi.resx">
       <DependentUpon>frmDSDiemThi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDsDieuKien.resx">
+      <DependentUpon>frmDsDieuKien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDSGV.resx">
       <DependentUpon>frmDSGV.cs</DependentUpon>
@@ -217,6 +245,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLopHoc.resx">
       <DependentUpon>frmLopHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLyLichSV.resx">
+      <DependentUpon>frmLyLichSV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -249,6 +280,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

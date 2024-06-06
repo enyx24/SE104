@@ -42,7 +42,6 @@ namespace ABD
             dgvDSLop.Columns["tenmonhoc"].HeaderText = "Tên môn học";
             dgvDSLop.Columns["sotinchi"].HeaderText = "Số tín chỉ";
             
-            
         }
 
         private void btnTraCuu_Click(object sender, EventArgs e)

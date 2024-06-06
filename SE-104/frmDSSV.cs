@@ -40,6 +40,7 @@ namespace ABD
                 value = tukhoa
             });
             dgvSinhVien.DataSource = new Database().SelectData("SelectAllSinhVien", firstPara);
+            
             // đặt tên cột
             dgvSinhVien.Columns["masinhvien"].HeaderText = "Mã SV";
             dgvSinhVien.Columns["hoten"].HeaderText = "Họ tên";

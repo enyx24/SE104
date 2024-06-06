@@ -32,15 +32,18 @@
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.btnThemMoi = new System.Windows.Forms.Button();
             this.dgvLopHoc = new System.Windows.Forms.DataGridView();
+            this.btnTimKiem = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.malophoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mamonhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenmonhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sotinchi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.thu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tietbatdau = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tietketthuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gvien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.daketthuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnDelete = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.btnTimKiem = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLopHoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -49,29 +52,28 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(263, 22);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(453, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 13);
+            this.label1.Size = new System.Drawing.Size(56, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Từ khóa";
             // 
             // txtTimKiem
             // 
             this.txtTimKiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTimKiem.Location = new System.Drawing.Point(322, 20);
-            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTimKiem.Location = new System.Drawing.Point(531, 25);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(107, 20);
+            this.txtTimKiem.Size = new System.Drawing.Size(141, 22);
             this.txtTimKiem.TabIndex = 1;
             // 
             // btnThemMoi
             // 
             this.btnThemMoi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnThemMoi.Location = new System.Drawing.Point(514, 20);
-            this.btnThemMoi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThemMoi.Location = new System.Drawing.Point(787, 25);
+            this.btnThemMoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThemMoi.Name = "btnThemMoi";
-            this.btnThemMoi.Size = new System.Drawing.Size(64, 19);
+            this.btnThemMoi.Size = new System.Drawing.Size(85, 23);
             this.btnThemMoi.TabIndex = 2;
             this.btnThemMoi.Text = "Thêm mới";
             this.btnThemMoi.UseVisualStyleBackColor = true;
@@ -91,20 +93,46 @@
             this.mamonhoc,
             this.tenmonhoc,
             this.sotinchi,
+            this.thu,
+            this.tietbatdau,
+            this.tietketthuc,
             this.gvien,
             this.daketthuc,
             this.btnDelete});
-            this.dgvLopHoc.Location = new System.Drawing.Point(0, 63);
-            this.dgvLopHoc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvLopHoc.Location = new System.Drawing.Point(0, 78);
+            this.dgvLopHoc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvLopHoc.MultiSelect = false;
             this.dgvLopHoc.Name = "dgvLopHoc";
             this.dgvLopHoc.RowHeadersWidth = 51;
             this.dgvLopHoc.RowTemplate.Height = 24;
             this.dgvLopHoc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLopHoc.Size = new System.Drawing.Size(600, 303);
+            this.dgvLopHoc.Size = new System.Drawing.Size(902, 373);
             this.dgvLopHoc.TabIndex = 3;
             this.dgvLopHoc.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLopHoc_CellClick);
             this.dgvLopHoc.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLopHoc_CellDoubleClick);
+            // 
+            // btnTimKiem
+            // 
+            this.btnTimKiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnTimKiem.Location = new System.Drawing.Point(687, 25);
+            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.Size = new System.Drawing.Size(85, 23);
+            this.btnTimKiem.TabIndex = 4;
+            this.btnTimKiem.Text = "Tìm kiếm";
+            this.btnTimKiem.UseVisualStyleBackColor = true;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ABD.Properties.Resources.banner_uit;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(335, 70);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // malophoc
             // 
@@ -138,6 +166,27 @@
             this.sotinchi.Name = "sotinchi";
             this.sotinchi.ReadOnly = true;
             // 
+            // thu
+            // 
+            this.thu.DataPropertyName = "thu";
+            this.thu.HeaderText = "Thứ";
+            this.thu.MinimumWidth = 6;
+            this.thu.Name = "thu";
+            // 
+            // tietbatdau
+            // 
+            this.tietbatdau.DataPropertyName = "tietbatdau";
+            this.tietbatdau.HeaderText = "Tiết bắt đầu";
+            this.tietbatdau.MinimumWidth = 6;
+            this.tietbatdau.Name = "tietbatdau";
+            // 
+            // tietketthuc
+            // 
+            this.tietketthuc.DataPropertyName = "tietketthuc";
+            this.tietketthuc.HeaderText = "Tiết kết thúc";
+            this.tietketthuc.MinimumWidth = 6;
+            this.tietketthuc.Name = "tietketthuc";
+            // 
             // gvien
             // 
             this.gvien.DataPropertyName = "gvien";
@@ -163,40 +212,18 @@
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseColumnTextForButtonValue = true;
             // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnTimKiem.Location = new System.Drawing.Point(439, 20);
-            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(64, 19);
-            this.btnTimKiem.TabIndex = 4;
-            this.btnTimKiem.Text = "Tìm kiếm";
-            this.btnTimKiem.UseVisualStyleBackColor = true;
-            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ABD.Properties.Resources.banner_uit;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(251, 57);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
             // frmDsLopHoc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(902, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.dgvLopHoc);
             this.Controls.Add(this.btnThemMoi);
             this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmDsLopHoc";
             this.Text = "Danh sách lớp học";
             this.Load += new System.EventHandler(this.frmDsLopHoc_Load);
@@ -214,13 +241,16 @@
         private System.Windows.Forms.Button btnThemMoi;
         private System.Windows.Forms.DataGridView dgvLopHoc;
         private System.Windows.Forms.Button btnTimKiem;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn malophoc;
         private System.Windows.Forms.DataGridViewTextBoxColumn mamonhoc;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenmonhoc;
         private System.Windows.Forms.DataGridViewTextBoxColumn sotinchi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn thu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tietbatdau;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tietketthuc;
         private System.Windows.Forms.DataGridViewTextBoxColumn gvien;
         private System.Windows.Forms.DataGridViewTextBoxColumn daketthuc;
         private System.Windows.Forms.DataGridViewButtonColumn btnDelete;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
