@@ -63,9 +63,39 @@ namespace ABD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _441953105_888771703288835_1157086509978992550_n {
+            get {
+                object obj = ResourceManager.GetObject("441953105_888771703288835_1157086509978992550_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap banner_uit {
             get {
                 object obj = ResourceManager.GetObject("banner_uit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg {
+            get {
+                object obj = ResourceManager.GetObject("bg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2024_06_01_013009 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2024-06-01 013009", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

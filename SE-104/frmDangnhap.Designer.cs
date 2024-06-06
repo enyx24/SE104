@@ -36,47 +36,55 @@
             this.txtMatkhau = new System.Windows.Forms.TextBox();
             this.btnDangNhap = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.labGreeting = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 38);
+            this.label1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(554, 232);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.Size = new System.Drawing.Size(84, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Loại tài khoản";
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 93);
+            this.label2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(554, 286);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 13);
+            this.label2.Size = new System.Drawing.Size(90, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tên đăng nhập";
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 145);
+            this.label3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(554, 340);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.Size = new System.Drawing.Size(58, 15);
             this.label3.TabIndex = 2;
             this.label3.Text = "Mật khẩu";
             // 
             // cbbLoaiTaiKhoan
             // 
+            this.cbbLoaiTaiKhoan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbbLoaiTaiKhoan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbbLoaiTaiKhoan.FormattingEnabled = true;
             this.cbbLoaiTaiKhoan.Items.AddRange(new object[] {
             "Quản trị viên",
             "Giáo viên",
             "Sinh viên"});
-            this.cbbLoaiTaiKhoan.Location = new System.Drawing.Point(118, 36);
+            this.cbbLoaiTaiKhoan.Location = new System.Drawing.Point(642, 229);
             this.cbbLoaiTaiKhoan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbbLoaiTaiKhoan.Name = "cbbLoaiTaiKhoan";
             this.cbbLoaiTaiKhoan.Size = new System.Drawing.Size(192, 21);
@@ -84,7 +92,8 @@
             // 
             // txtTendangnhap
             // 
-            this.txtTendangnhap.Location = new System.Drawing.Point(118, 91);
+            this.txtTendangnhap.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtTendangnhap.Location = new System.Drawing.Point(642, 285);
             this.txtTendangnhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtTendangnhap.MaxLength = 50;
             this.txtTendangnhap.Name = "txtTendangnhap";
@@ -93,7 +102,8 @@
             // 
             // txtMatkhau
             // 
-            this.txtMatkhau.Location = new System.Drawing.Point(118, 143);
+            this.txtMatkhau.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtMatkhau.Location = new System.Drawing.Point(642, 338);
             this.txtMatkhau.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMatkhau.MaxLength = 50;
             this.txtMatkhau.Name = "txtMatkhau";
@@ -103,7 +113,8 @@
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.Location = new System.Drawing.Point(77, 186);
+            this.btnDangNhap.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDangNhap.Location = new System.Drawing.Point(602, 381);
             this.btnDangNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(74, 26);
@@ -114,7 +125,8 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(185, 186);
+            this.btnThoat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnThoat.Location = new System.Drawing.Point(710, 381);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(74, 26);
@@ -123,11 +135,25 @@
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
+            // labGreeting
+            // 
+            this.labGreeting.AutoSize = true;
+            this.labGreeting.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labGreeting.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labGreeting.Location = new System.Drawing.Point(649, 150);
+            this.labGreeting.Name = "labGreeting";
+            this.labGreeting.Size = new System.Drawing.Size(108, 25);
+            this.labGreeting.TabIndex = 6;
+            this.labGreeting.Text = "Đăng nhập";
+            // 
             // frmDangnhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(347, 233);
+            this.BackgroundImage = global::ABD.Properties.Resources.bg;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(857, 530);
+            this.Controls.Add(this.labGreeting);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.txtMatkhau);
@@ -136,8 +162,12 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmDangnhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";
@@ -158,5 +188,6 @@
         private System.Windows.Forms.TextBox txtMatkhau;
         private System.Windows.Forms.Button btnDangNhap;
         private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Label labGreeting;
     }
 }

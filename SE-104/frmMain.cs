@@ -53,7 +53,7 @@ namespace ABD
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            menuStrip1.Hide();
+            this.Hide();
             var fn = new frmDangnhap();
             fn.ShowDialog(); //Load form đăng nhập nè
             
@@ -82,6 +82,7 @@ namespace ABD
             frmWelcome f = new frmWelcome();   
             AddForm(f);
             menuStrip1.Show();
+            this.Show();
         }
         private void AddForm(Form f)
         {
