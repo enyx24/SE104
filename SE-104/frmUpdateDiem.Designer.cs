@@ -39,7 +39,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 30);
+            this.label1.Location = new System.Drawing.Point(44, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 16);
             this.label1.TabIndex = 0;
@@ -47,17 +47,16 @@
             // 
             // txtDiemGK
             // 
-            this.txtDiemGK.Location = new System.Drawing.Point(109, 27);
+            this.txtDiemGK.Location = new System.Drawing.Point(136, 30);
             this.txtDiemGK.Name = "txtDiemGK";
             this.txtDiemGK.Size = new System.Drawing.Size(47, 22);
             this.txtDiemGK.TabIndex = 1;
-            
             // 
             // btnLuu
             // 
             this.btnLuu.Location = new System.Drawing.Point(27, 123);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(46, 23);
+            this.btnLuu.Size = new System.Drawing.Size(76, 23);
             this.btnLuu.TabIndex = 2;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
@@ -65,7 +64,7 @@
             // 
             // txtDiemCK
             // 
-            this.txtDiemCK.Location = new System.Drawing.Point(109, 69);
+            this.txtDiemCK.Location = new System.Drawing.Point(136, 72);
             this.txtDiemCK.Name = "txtDiemCK";
             this.txtDiemCK.Size = new System.Drawing.Size(47, 22);
             this.txtDiemCK.TabIndex = 4;
@@ -73,7 +72,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 72);
+            this.label2.Location = new System.Drawing.Point(44, 75);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 16);
             this.label2.TabIndex = 3;
@@ -81,9 +80,9 @@
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(109, 123);
+            this.btnHuy.Location = new System.Drawing.Point(136, 123);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(47, 23);
+            this.btnHuy.Size = new System.Drawing.Size(76, 23);
             this.btnHuy.TabIndex = 5;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = true;
@@ -93,7 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(209, 199);
+            this.ClientSize = new System.Drawing.Size(236, 174);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.txtDiemCK);
             this.Controls.Add(this.label2);

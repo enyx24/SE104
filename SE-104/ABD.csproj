@@ -297,5 +297,14 @@
   <ItemGroup>
     <None Include="banner_uit.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="441953105_888771703288835_1157086509978992550_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Screenshot 2024-06-01 013009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bg.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

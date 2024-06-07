@@ -57,15 +57,15 @@
             this.tenmonhoc,
             this.sotinchi,
             this.btnDelete});
-            this.dgvDSMH.Location = new System.Drawing.Point(0, 67);
-            this.dgvDSMH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvDSMH.Location = new System.Drawing.Point(0, 96);
+            this.dgvDSMH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvDSMH.MultiSelect = false;
             this.dgvDSMH.Name = "dgvDSMH";
             this.dgvDSMH.ReadOnly = true;
             this.dgvDSMH.RowHeadersWidth = 51;
             this.dgvDSMH.RowTemplate.Height = 24;
             this.dgvDSMH.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDSMH.Size = new System.Drawing.Size(600, 298);
+            this.dgvDSMH.Size = new System.Drawing.Size(894, 353);
             this.dgvDSMH.TabIndex = 0;
             this.dgvDSMH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSMH_CellClick);
             this.dgvDSMH.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSMH_CellContentClick);
@@ -109,41 +109,40 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(244, 28);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(431, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 13);
+            this.label1.Size = new System.Drawing.Size(56, 16);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Từ Khóa";
+            this.label1.Text = "Từ khóa";
             // 
             // txtTimKiem
             // 
             this.txtTimKiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTimKiem.Location = new System.Drawing.Point(291, 26);
-            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTimKiem.Location = new System.Drawing.Point(494, 32);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(117, 20);
+            this.txtTimKiem.Size = new System.Drawing.Size(183, 22);
             this.txtTimKiem.TabIndex = 2;
             // 
             // btnTimKiem
             // 
             this.btnTimKiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnTimKiem.Location = new System.Drawing.Point(423, 26);
-            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTimKiem.Location = new System.Drawing.Point(683, 32);
+            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(78, 19);
+            this.btnTimKiem.Size = new System.Drawing.Size(89, 23);
             this.btnTimKiem.TabIndex = 3;
-            this.btnTimKiem.Text = "Tìm Kiếm";
+            this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
             this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // btnThemMoi
             // 
             this.btnThemMoi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnThemMoi.Location = new System.Drawing.Point(513, 26);
-            this.btnThemMoi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThemMoi.Location = new System.Drawing.Point(778, 32);
+            this.btnThemMoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThemMoi.Name = "btnThemMoi";
-            this.btnThemMoi.Size = new System.Drawing.Size(73, 19);
+            this.btnThemMoi.Size = new System.Drawing.Size(87, 23);
             this.btnThemMoi.TabIndex = 4;
             this.btnThemMoi.Text = "Thêm mới";
             this.btnThemMoi.UseVisualStyleBackColor = true;
@@ -152,25 +151,26 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ABD.Properties.Resources.banner_uit;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(239, 57);
+            this.pictureBox1.Size = new System.Drawing.Size(370, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
             // frmDSMH
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(894, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnThemMoi);
             this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvDSMH);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmDSMH";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmDSMH";

@@ -37,7 +37,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(55, 63);
+            this.label1.Location = new System.Drawing.Point(42, 63);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 16);
             this.label1.TabIndex = 0;
@@ -45,14 +45,14 @@
             // 
             // txtmasv
             // 
-            this.txtmasv.Location = new System.Drawing.Point(168, 60);
+            this.txtmasv.Location = new System.Drawing.Point(149, 60);
             this.txtmasv.Name = "txtmasv";
-            this.txtmasv.Size = new System.Drawing.Size(100, 22);
+            this.txtmasv.Size = new System.Drawing.Size(175, 22);
             this.txtmasv.TabIndex = 1;
             // 
             // btnreset
             // 
-            this.btnreset.Location = new System.Drawing.Point(301, 59);
+            this.btnreset.Location = new System.Drawing.Point(358, 60);
             this.btnreset.Name = "btnreset";
             this.btnreset.Size = new System.Drawing.Size(75, 23);
             this.btnreset.TabIndex = 2;
@@ -62,9 +62,9 @@
             // 
             // btnhuy
             // 
-            this.btnhuy.Location = new System.Drawing.Point(398, 59);
+            this.btnhuy.Location = new System.Drawing.Point(452, 60);
             this.btnhuy.Name = "btnhuy";
-            this.btnhuy.Size = new System.Drawing.Size(88, 23);
+            this.btnhuy.Size = new System.Drawing.Size(75, 23);
             this.btnhuy.TabIndex = 3;
             this.btnhuy.Text = "Hủy";
             this.btnhuy.UseVisualStyleBackColor = true;
@@ -74,7 +74,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 170);
+            this.ClientSize = new System.Drawing.Size(570, 146);
             this.Controls.Add(this.btnhuy);
             this.Controls.Add(this.btnreset);
             this.Controls.Add(this.txtmasv);
