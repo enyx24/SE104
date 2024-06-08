@@ -108,9 +108,12 @@ namespace ABD
                             value = masv
                         }
                     };
-                        new Database().ExeCute(sql, lstPara);
+                     var rs= new Database().ExeCute(sql, lstPara);
 
-                        MessageBox.Show("Xóa sinh viên thành công");
+                        if (rs == 0) { MessageBox.Show("Không thể xóa sinh viên"); }
+                        else
+                        { MessageBox.Show("Xóa sinh viên thành công"); }
+
                         LoadDSSV();
                     }
 

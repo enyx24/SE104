@@ -78,17 +78,18 @@ namespace ABD
                         }
                     };
                         var f = new Database().ExeCute(sql, lstPara);
-                        if (f == 1)
+                        if (f == 0)
                         {
-                            MessageBox.Show("Xóa lớp học thành công");
-                            LoadDSLH();
+                            MessageBox.Show("Không thể xóa lớp còn hoạt động");
+                        
 
 
                         }
                         else
                         {
-                            MessageBox.Show("Không thể xóa lớp còn hoạt động");
+                            MessageBox.Show("Xoá lớp học thành công");
                         }
+                        LoadDSLH();
                     }
                 }
             }

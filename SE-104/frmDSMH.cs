@@ -87,8 +87,18 @@ namespace ABD
                             value = maMH
                         }
                     };
-                        new Database().ExeCute(sql, lstPara);
-                        MessageBox.Show("Xóa môn học thành công");
+                        var rs = new Database().ExeCute(sql, lstPara);
+                        
+                        if (rs==0)
+                        {
+                            MessageBox.Show("Không thể xóa, còn lớp hoạt động");
+                        }
+                        else
+
+
+                        {
+                            MessageBox.Show("Xóa môn học thành công");
+                        }
                         LoadDSMH();
                     }
 
